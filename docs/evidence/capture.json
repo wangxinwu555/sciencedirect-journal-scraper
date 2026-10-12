@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.sciencedirect.com/science/article/pii/S1877050924027492",
+  "captured_at": "2026-10-12T05:35:17.821Z",
+  "capture_method": "browser-dom",
+  "description": "Read from the successfully loaded ScienceDirect article in a normal browser. article.html contains the unmodified outerHTML of the article title, abstract, journal link, citation metadata and license link; it is a DOM excerpt, not a full HTTP response or a full page archive.",
+  "http_attempt": {"status": 403, "used_for_result": false},
+  "license_url": "http://creativecommons.org/licenses/by-nc/4.0/"
+}

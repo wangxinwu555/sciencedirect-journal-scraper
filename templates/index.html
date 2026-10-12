@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ScienceDirect 论文篇名与完整摘要采集成果，附原文、数据下载和来源记录。">
+  <title>论文篇名与摘要 · ScienceDirect 采集成果</title>
+  <style>
+    :root{--paper:#f5f4ef;--ink:#182328;--muted:#657477;--line:#d6ddda;--accent:#175f63}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+    a{color:var(--accent);text-underline-offset:4px}a:hover{color:#103e41}button,input{font:inherit}
+    a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #6dabaf;outline-offset:4px}
+    .wrap{max-width:1152px;margin:auto;padding:0 40px}.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px;letter-spacing:.08em}
+    .brand{color:var(--ink);font-weight:700}.brand::before{content:"";display:inline-block;width:11px;height:11px;border:2px solid var(--accent);margin-right:12px;transform:rotate(45deg)}
+    .hero{display:grid;grid-template-columns:1fr 240px;gap:56px;padding:66px 0 45px}.eyebrow{font-size:12px;letter-spacing:.09em;color:var(--muted);text-transform:uppercase}
+    h1{font-size:clamp(30px,4.5vw,52px);font-weight:600;letter-spacing:-.035em;line-height:1.2;margin:16px 0 23px}.intro{max-width:640px;color:var(--muted);margin:0;line-height:1.8}.hero-aside{border-left:1px solid var(--line);padding-left:28px;align-self:center}.number{font:70px/1 Georgia,serif;color:var(--accent)}.number small{font:13px system-ui;margin-left:12px;color:var(--muted)}.aside-label{font-size:12px;color:var(--muted);margin-top:15px}
+    .toolbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0}.search{display:flex;align-items:center;gap:14px;flex:1}.search input{border:0;border-bottom:1px solid var(--line);background:transparent;outline-offset:3px;padding:8px 2px;width:100%;max-width:350px;min-width:80px;color:var(--ink)}.search label{font-size:13px;color:var(--muted);white-space:nowrap}.downloads{display:flex;gap:12px}.download{font-size:13px;border:1px solid var(--line);padding:8px 14px;border-radius:3px;text-decoration:none;white-space:nowrap}.download.primary{background:var(--accent);color:white;border-color:var(--accent)}
+    .results-label{font-size:12px;letter-spacing:.09em;color:var(--muted);padding:27px 0 0}.paper{display:grid;grid-template-columns:64px 1fr;gap:24px;padding:25px 0 42px;border-bottom:1px solid var(--line)}.paper-no{font:28px Georgia,serif;color:#9da9a7;padding-top:23px}.paper-body{max-width:880px}.paper h2{font:400 clamp(25px,3vw,35px)/1.25 Georgia,"Times New Roman",serif;letter-spacing:-.015em;margin:14px 0 18px}.paper-links{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:12px}.paper-links span{color:var(--muted);background:#e5ebe6;padding:3px 9px;border-radius:3px}.abstract-label{margin-top:30px;font-size:11px;letter-spacing:.15em;font-weight:600;color:var(--accent)}.abstract-label span{font-weight:400;letter-spacing:0;margin-left:12px;color:var(--muted)}.abstract{font:17px/1.85 Georgia,"Times New Roman",serif;margin:11px 0 26px;color:#344348}
+    details{font-size:13px}summary{cursor:pointer;color:var(--accent);padding:8px 0}dl{display:grid;grid-template-columns:165px 1fr;gap:10px 20px;border-left:2px solid var(--line);padding-left:20px}dt{color:var(--muted)}dd{margin:0;overflow-wrap:anywhere}.hash{font-family:monospace;font-size:11px}.empty{padding:60px 0;color:var(--muted)}[hidden]{display:none!important}.foot{padding:26px 0 40px;font-size:12px;color:var(--muted)}.foot p{margin:8px 0}.foot a{color:var(--muted)}
+    @media(max-width:700px){.wrap{padding:0 22px}.top{font-size:11px}.hero{grid-template-columns:1fr;gap:24px;padding:40px 0 30px}.hero-aside{display:flex;gap:18px;align-items:center;padding-left:0;border-left:0}.number{font-size:40px}.aside-label{margin:0}.toolbar{flex-direction:column;align-items:stretch}.search{width:100%}.search input{max-width:none}.downloads{justify-content:flex-start}.paper{grid-template-columns:1fr;gap:7px}.paper-no{padding-top:0;font-size:18px}.paper h2{font-size:27px}.abstract{font-size:16px}.paper-body{min-width:0}dl{grid-template-columns:1fr;gap:4px}dd{margin-bottom:9px}}
+    @media(prefers-reduced-motion:no-preference){a{transition:color .15s}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top"><span class="brand">JOURNAL NOTES</span><span>SCIENCEDIRECT · 采集成果</span></header>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div><div class="eyebrow">ARTICLE METADATA / 论文信息</div><h1 id="page-title">论文篇名与摘要</h1><p class="intro">从 ScienceDirect 论文页面提取篇名与完整英文摘要。<br>每条记录均保留原文链接、来源标识与采集时间，可直接下载核查。</p></div>
+        <div class="hero-aside"><div class="number">{{COUNT}}<small>篇论文</small></div><div class="aside-label">Procedia Computer Science<br>本次样本 · 2024 年</div></div>
+      </section>
+      <div class="toolbar"><div class="search"><label for="query">搜索结果</label><input id="query" type="search" placeholder="输入标题、摘要或 DOI 关键词…" autocomplete="off"></div><div class="downloads"><a class="download primary" href="articles.csv" download>下载 CSV ↓</a><a class="download" href="articles.json" download>下载 JSON ↓</a></div></div>
+      <div class="results-label" id="result-count" aria-live="polite">{{COUNT}} 条记录 / 完整摘要</div>
+      <section id="results" aria-label="抓取的论文">{{CARDS}}</section>
+      <p class="empty" id="empty" hidden>没有匹配的论文，请尝试其他关键词。</p>
+    </main>
+    <footer class="foot">
+      <p>原文著作权归 Anne Håkansson、Gloria Phillips-Wren 及相关权利人；本次论文采用 <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a> 许可。此页用于非商业面试演示。</p>
+      <p>由 Python 提取页面中的篇名与摘要；每条论文的详情记录实际采集方式。{{EVIDENCE}}</p>
+    </footer>
+  </div>
+  <script>
+    const query=document.getElementById('query');
+    const papers=Array.from(document.querySelectorAll('[data-paper]'));
+    query.addEventListener('input',()=>{
+      const term=query.value.trim().toLocaleLowerCase();let visible=0;
+      for(const paper of papers){paper.hidden=!paper.textContent.toLocaleLowerCase().includes(term);if(!paper.hidden)visible++;}
+      document.getElementById('result-count').textContent=visible+' 条记录 / 共 '+papers.length+' 条';
+      document.getElementById('empty').hidden=visible!==0;
+    });
+  </script>
+</body>
+</html>

@@ -16,6 +16,10 @@
 
 ## 快速查看
 
+**在线成果：[论文篇名与摘要展示页](https://wangxinwu555.github.io/sciencedirect-journal-scraper/)**
+
+**独立仓库：[wangxinwu555/sciencedirect-journal-scraper](https://github.com/wangxinwu555/sciencedirect-journal-scraper)**
+
 直接打开 `docs/index.html` 即可查看，支持本地文件打开，无需前端依赖或构建。也可启动静态服务：
 
 ```powershell
@@ -73,10 +77,14 @@ python scraper.py --html path/to/saved-article.html --source-url https://www.sci
 
 ## 提交面试
 
-仓库链接可用于查看代码、CSV 与 JSON。若启用 GitHub Pages，选择 `main` 分支下的 `/docs` 目录，即可获得无需克隆仓库的展示链接。没有启用 Pages 之前，不应把推测的地址作为已可访问成果发送。
+仓库链接可用于查看代码、CSV 与 JSON。已启用 GitHub Pages，来源为 `main` 分支下的 `/docs` 目录；上面的在线成果链接已经验证可正常访问。更新展示成果后提交并推送到 `main`，GitHub Pages 会重新发布。
 
 建议发送说明：
 
-> 您好，我选取了 Procedia Computer Science 的一篇论文，完成了篇名和完整英文摘要的采集，附原文链接、CSV/JSON 导出和可复现代码。本次采用浏览器页面采集后解析的方式，普通 HTTP 请求被网站返回 403；实现与采集记录已在仓库说明。成果链接：〔实际链接〕。
+> 您好，我选取了 Procedia Computer Science 的一篇论文，完成了篇名和完整英文摘要的采集，附原文链接、CSV/JSON 导出和可复现代码。本次采用浏览器页面采集后解析的方式，普通 HTTP 请求被网站返回 403；实现与采集记录已在仓库说明。
+>
+> 成果展示：https://wangxinwu555.github.io/sciencedirect-journal-scraper/
+>
+> 代码仓库：https://github.com/wangxinwu555/sciencedirect-journal-scraper
 
 项目代码采用 MIT License；论文原文、摘要与来源片段采用其原有 CC BY-NC 4.0 许可，**不受项目代码 MIT 许可覆盖**。

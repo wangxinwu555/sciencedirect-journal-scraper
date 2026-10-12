@@ -1,0 +1,103 @@
+{
+  "journal": "Procedia Computer Science",
+  "year": 2024,
+  "articles": 3269,
+  "volumes": [
+    {
+      "volume": "231",
+      "articles": 120
+    },
+    {
+      "volume": "232",
+      "articles": 322
+    },
+    {
+      "volume": "233",
+      "articles": 103
+    },
+    {
+      "volume": "234",
+      "articles": 215
+    },
+    {
+      "volume": "235",
+      "articles": 324
+    },
+    {
+      "volume": "236",
+      "articles": 72
+    },
+    {
+      "volume": "237",
+      "articles": 114
+    },
+    {
+      "volume": "238",
+      "articles": 144
+    },
+    {
+      "volume": "239",
+      "articles": 294
+    },
+    {
+      "volume": "240",
+      "articles": 11
+    },
+    {
+      "volume": "241",
+      "articles": 88
+    },
+    {
+      "volume": "242",
+      "articles": 185
+    },
+    {
+      "volume": "243",
+      "articles": 150
+    },
+    {
+      "volume": "244",
+      "articles": 51
+    },
+    {
+      "volume": "245",
+      "articles": 132
+    },
+    {
+      "volume": "246",
+      "articles": 571
+    },
+    {
+      "volume": "247",
+      "articles": 170
+    },
+    {
+      "volume": "248",
+      "articles": 15
+    },
+    {
+      "volume": "249",
+      "articles": 32
+    },
+    {
+      "volume": "250",
+      "articles": 41
+    },
+    {
+      "volume": "251",
+      "articles": 115
+    }
+  ],
+  "article_types": {
+    "Research article": 3267,
+    "Editorial": 2
+  },
+  "source": "ScienceDirect website article and issue DOM",
+  "scope": "Captured titles with publisher abstract text",
+  "captured_at_start": "2026-10-12T08:09:25.082794+00:00",
+  "captured_at_end": "2026-10-12T08:34:37.591472+00:00",
+  "published_at": "2026-10-12T09:26:35.703747+00:00",
+  "data_sha256": "968ba47f1a3554e8eedeb0e59055f5e5e6c70d4a50fa1e1e63c4fb115fbb99ee",
+  "evidence_sha256": "7b0bd60dab74fe1958d5254d836a7d8554a1fbe5389951e1365ffabf16edae5c",
+  "source_evidence_verified": 3269
+}
